@@ -16,3 +16,19 @@ body {
   background: #3385ff;
 
 }
+
+@media(min-width: 650px) {
+
+  .article-list {
+    width: 50%;
+    float: left;
+    padding-right: 25px;
+
+  }
+
+  .book-list {
+    width: 50%;
+    float: left;
+  }
+
+}
