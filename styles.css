@@ -22,7 +22,7 @@ body {
   .article-list {
     width: 50%;
     float: left;
-    padding-right: 25px;
+    padding-right: 30px;
 
   }
 
@@ -31,4 +31,141 @@ body {
     float: left;
   }
 
+}
+
+/* 1 changes text with h1 tag to uppercase */
+h1 {
+  text-transform: uppercase;
+}
+/* 2 makes all text with an a tag to 17px */
+a {
+  font-size: 17px;
+}
+/* 3 makes images have a margin-left of 15px*/
+img {
+  margin-left: 15px;
+}
+/* 4 makes images have a margin-top of 20px*/
+img {
+  margin-top: 20px;
+}
+/* 5 makes images have a margin-bottom of 20px*/
+img {
+  margin-bottom: 20px;
+}
+/* 6 makes text with h1 tag be underlined*/
+h1 {
+  text-decoration: underline;
+}
+/* 7 adds a box-shadow to text with a byline class*/
+.byline {
+  box-shadow: 4px 6px #F9423A;
+}
+/* 8 adds a box-shadow to text with a publish-time class*/
+.publish-time {
+  box-shadow: 4px 6px #F9423A;
+}
+/* 9 changes text with an h2 tag to uppercase*/
+h2 {
+  text-transform: uppercase;
+}
+/* 10 adds a ridge style border around h1 elements*/
+h1 {
+  border-style: ridge;
+}
+/* 11 adds a groove style border around h2 elements*/
+h2 {
+  border-style: groove;
+}
+/* 12 adds 10px of padding to the right of elements with h1 tag*/
+h1 {
+  padding-right: 10px;
+}
+/* 13 makes text with an a tag bold */
+a {
+  font-weight: bold;
+}
+/* 14 adds 10px of padding to the left of elements with h1 tag*/
+h1 {
+  padding-left: 10px
+}
+/* 15 adds 5px of padding to the top of elements with h1 tag*/
+h1 {
+  padding-top: 5px;
+}
+/* 16 adds 5px of padding to the bottom of elements with h1 tag*/
+h1 {
+  padding-bottom: 5px;
+}
+/* 17 makes text with an em tag be 17px*/
+em {
+  font-size: 17px;
+}
+/* 18 changes the font size of any text in the publish-time class to 20px*/
+.publish-time {
+  font-size: 20px;
+}
+/* 19 changes the font-style of anything in the byline class to italic*/
+.byline {
+  font-style: italic;
+}
+/* 20 changes the color of text with h1 tag to match the body*/
+h1 {
+  color: #3385ff;
+}
+/* 21 changes the color of text with h2 tag to match the body*/
+h2 {
+  color: #3385ff;
+}
+/* 22 changes the font weight of text with an h1 tag to be lighter*/
+h1 {
+  font-weight: lighter;
+}
+/* 24 makes text with h4 tag be underlined*/
+h4 {
+  text-decoration: underline;
+}
+/* 25 changes the color of text with h4 tag to match the body*/
+h4 {
+  color: #3385ff;
+}
+/* 26 */
+h4 {
+  border-style: inset;
+}
+/* 27 makes text within the Woodward-bio class be bold*/
+.Woodward-bio{
+  font-weight: bold;
+}
+/* 28 makes the background-color of h4 elements white*/
+h4 {
+  background-color: white;
+}
+/* 29 makes the background-color of h2 elements white*/
+h2 {
+  background-color: white;
+}
+/* 30 makes the font-weight of items in an unordered list bold*/
+ul {
+  font-weight: bold;
+}
+/* 31 removes margin on all sides from elements in Woodward-bio class*/
+.Woodward-bio{
+  margin: 0;
+}
+/* 32 makes the background-color of h1 elements white */
+h1 {
+  background-color: white;
+}
+/* 33 makes the text within the story-text div be sans-serif*/
+.story-text {
+  font-family: sans-serif;
+}
+/* 34 makes the background-color of the byline class be white*/
+.byline {
+  background-color: white;
+}
+/* 35 makes the background-color of the publish-time class be white*/
+.publish-time {
+  background-color: white;
 }
