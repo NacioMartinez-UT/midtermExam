@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: #ffe6ff;
+
+  margin: 30px auto;
+  overflow: auto;
+
+  max-width: 600px;
+  border-style: double;
+  padding: 25px;
+}
+
+body {
+  background: #3385ff;
+
+}
